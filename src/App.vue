@@ -1,14 +1,3 @@
-<script>
-import Main from "@/pages/Main.vue";
-import Navbar from "@/components/UI/Navbar.vue";
-
-export default {
-  components: {Navbar, Main}
-
-}
-</script>
-
-
 <template>
   <navbar></navbar>
   <div class="app">
@@ -16,6 +5,15 @@ export default {
   </div>
 </template>
 
+<script>
+import Navbar from "@/components/Navbar";
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 
 <style>
 * {
@@ -23,14 +21,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
 .app {
   padding: 20px;
-}
-
-.app__btns {
-  margin: 15px 0;
-  display: flex;
-  justify-content: space-between;
 }
 </style>

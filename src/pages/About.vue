@@ -1,14 +1,14 @@
-<script>
-  export default {
-
-  }
-</script>
-
 <template>
   <div>
-    <h1>Данное приложение было создано в учебных целях</h1>
+    <h1>Данное приложение было создано в результате обучения на канале Ulbi TV</h1>
   </div>
 </template>
+
+<script>
+export default {
+
+}
+</script>
 
 <style scoped>
 
